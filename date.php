@@ -4,6 +4,7 @@ function salto(){
     echo "<br>";
 }
 
+echo "<div class='contenedor'>";
 // date (string del formato)
 echo "Fecha de hoy > ".date("d-m-Y");
 salto();
@@ -49,5 +50,6 @@ $diferencia=date_diff($hoy,$nacimientoAndres);
 $edadAndres=$diferencia->format("%y años");
 echo "Andres tiene $edadAndres";
 
-
+echo "</div>";
+include "footer.php";
 

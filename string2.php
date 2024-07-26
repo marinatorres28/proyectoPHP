@@ -1,6 +1,7 @@
 <?php
 include "header.php";
 
+echo "<div class='contenedor'>";
 // Funciones de las cadenas de carácteres
 // Conocer la longitud de una cadena
 
@@ -70,12 +71,13 @@ salto();
 echo "Con strrchr a partir de la ultima u, muestra el resto de la cadena ".strrchr($otraCadena,"u");
 salto();
 
-
+echo "</div>";
 
 
 function salto(){
     echo "<br>";
 }
+include "footer.php";
 
 
 

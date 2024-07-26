@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: "Century Gothic", serif;
+    background: #faf6ff;
+}
+.menu{
+    background: #292929;
+    display: flex;
+    justify-content: left;
+    height: 70px;
+    font-weight: bold;
+    font-size: 15px;
+    padding-top: 25px;
+}
+.menu li{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    text-align: center;
+    background: #292929;
+}
+.menu li a{
+    text-align: center;
+    text-decoration: none;
+    color: #faf6ff;
+    margin: 20px;
+    background: #292929;
+}
+.menu ul{
+    background: #292929;
+}
+.menu li a:hover{
+    color: #b964ff;
+}
+
+.contenedor{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.footer{
+    margin-top: 50px;
+    margin-left: 80px;
+    font-size: 12px;
+}
